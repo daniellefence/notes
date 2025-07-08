@@ -1,0 +1,125 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ce15da052a94ea87f5b90a3a7e49cd01",
+    "packages": [
+        {
+            "name": "daniellefence/buttons",
+            "version": "1.0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daniellefence/buttons.git",
+                "reference": "1d9becf2c771095bdb774f5197bf95357f252318"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daniellefence/buttons/zipball/1d9becf2c771095bdb774f5197bf95357f252318",
+                "reference": "1d9becf2c771095bdb774f5197bf95357f252318",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Buttons": "Daniellefence\\Buttons\\ButtonsFacade"
+                    },
+                    "providers": [
+                        "Daniellefence\\Buttons\\ButtonsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Daniellefence\\Buttons\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shane Barron",
+                    "email": "sbarron@daniellefence.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Buttons Package used by Danielle Fence and Outdoor Living",
+            "homepage": "https://github.com/daniellefence/buttons",
+            "keywords": [
+                "buttons",
+                "daniellefence"
+            ],
+            "support": {
+                "issues": "https://github.com/daniellefence/buttons/issues",
+                "source": "https://github.com/daniellefence/buttons/tree/1.0.3.1"
+            },
+            "time": "2025-06-20T18:56:07+00:00"
+        },
+        {
+            "name": "daniellefence/card",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daniellefence/card.git",
+                "reference": "64a628b54d36ef7bedcfa73e9fbea344223242fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daniellefence/card/zipball/64a628b54d36ef7bedcfa73e9fbea344223242fa",
+                "reference": "64a628b54d36ef7bedcfa73e9fbea344223242fa",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Card": "Daniellefence\\Card\\CardFacade"
+                    },
+                    "providers": [
+                        "Daniellefence\\Card\\CardServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Daniellefence\\Card\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shane Barron",
+                    "email": "sbarron@daniellefence.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Card for laravel",
+            "homepage": "https://github.com/daniellefence/card",
+            "keywords": [
+                "card",
+                "daniellefence"
+            ],
+            "support": {
+                "issues": "https://github.com/daniellefence/card/issues",
+                "source": "https://github.com/daniellefence/card/tree/1.0.0"
+            },
+            "time": "2025-06-23T13:38:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

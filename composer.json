@@ -1,0 +1,54 @@
+{
+    "name": "daniellefence/notes",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "daniellefence",
+        "notes"
+    ],
+    "homepage": "https://github.com/daniellefence/notes",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shane Barron",
+            "email": "sbarron@daniellefence.net",
+            "role": "Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Daniellefence\\Notes\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Daniellefence\\Notes\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daniellefence\\Notes\\NotesServiceProvider"
+            ],
+            "aliases": {
+                "Notes": "Daniellefence\\Notes\\NotesFacade"
+            }
+        }
+    },
+    "require": {
+        "daniellefence/buttons": "^1.0",
+        "daniellefence/card": "^1.0",
+        "daniellefence/icons": "*",
+        "daniellefence/inputs": "*"
+    }
+}

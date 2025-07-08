@@ -1,0 +1,1 @@
+<livewire:df.notes :modelId="$model->id" :modelClass="get_class($model)" />
