@@ -35,7 +35,10 @@ class Notes extends Component
     }
     public function render()
     {
-        $this->notes = Note::all();
+        $this->notes = Note::where([
+            'model_id'=>$this->model->id,
+            'model_class'=>$this->model::class
+        ])->get();
         return view('df::livewire.notes');
     }
 }
