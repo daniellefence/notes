@@ -41,4 +41,14 @@ class Notes extends Component
         ])->get();
         return view('df::livewire.notes');
     }
+    public function deleteNote($id)
+    {
+        $note = Note::findOrFail($id);
+
+        if ($note->user_id !== auth()->id()) {
+            abort(403, 'Unauthorized action.');
+        }
+
+        $note->delete();
+    }
 }
